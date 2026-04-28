@@ -1,0 +1,2 @@
+ALTER TABLE jobs
+ADD COLUMN public_id UUID NOT NULL UNIQUE DEFAULT uuid_generate_v4();
